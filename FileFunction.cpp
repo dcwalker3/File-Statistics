@@ -8,6 +8,7 @@
 #include <vector>
 #include <map>
 #include <sstream>
+#include <algorithm>
 
 using namespace std;
 
@@ -172,9 +173,14 @@ void getWordFrequency(string filePath){
 
     // Loop through the file and words
     while (getline(file, line)) {
+
         istringstream iss(line);
+        // Convert the line to lowercase
         string word;
         while (iss >> word) {
+            // Convert the word to lowercase
+            transform(word.begin(), word.end(), word.begin(), ::tolower);
+
             // Add all words to the map
             // Increment its value by 1 so if
             // the word is just added, it will be 1

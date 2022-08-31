@@ -1,0 +1,11 @@
+# ninja log v5
+3	420	6836742262404019	CMakeFiles/File_Statistics.dir/main.cpp.obj	a197ee67491115a7
+3	437	6836743143611496	CMakeFiles/File_Statistics.dir/FileFunction.cpp.obj	e85d7f774ee23e8
+437	540	6836743144686949	File_Statistics.exe	de2e90eb9ebd9248
+2	266	6836744704961151	CMakeFiles/File_Statistics.dir/main.cpp.obj	a197ee67491115a7
+266	370	6836744706000072	File_Statistics.exe	de2e90eb9ebd9248
+3	368	6836746433226389	CMakeFiles/File_Statistics.dir/main.cpp.obj	a197ee67491115a7
+11	577	6836746435332873	CMakeFiles/File_Statistics.dir/FileFunction.cpp.obj	e85d7f774ee23e8
+577	716	6836746436733604	File_Statistics.exe	de2e90eb9ebd9248
+3	645	6836748598599125	CMakeFiles/File_Statistics.dir/FileFunction.cpp.obj	e85d7f774ee23e8
+645	834	6836748600404092	File_Statistics.exe	de2e90eb9ebd9248

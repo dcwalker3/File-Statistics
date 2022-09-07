@@ -4,7 +4,7 @@ with handling files inside of C++. This program
 will ask for a file path and then will analyze some basic
 information about the file.
 
-Example:<br>
+Example:
 
     File Name/Location: C:\Users\dakot\Documents\Object Oriented Paradigm\File Statistics\input.txt
     File Extension: .txt

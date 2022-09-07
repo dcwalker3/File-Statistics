@@ -5,18 +5,11 @@
 #include "FileFunction.h"
 #include <iostream>
 #include <fstream>
-#include <vector>
 #include <map>
 #include <sstream>
 #include <algorithm>
 
 using namespace std;
-
-void printVector(vector<string> words) {
-    for (int i = 0; i < words.size(); i++) {
-        cout << words[i] << endl;
-    }
-}
 
 // Function to get the file extension
 string getFileExtension(string filePath) {
@@ -175,7 +168,6 @@ void getWordFrequency(string filePath){
     while (getline(file, line)) {
 
         istringstream iss(line);
-        // Convert the line to lowercase
         string word;
         while (iss >> word) {
             // Convert the word to lowercase

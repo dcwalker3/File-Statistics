@@ -5,7 +5,6 @@
 #ifndef FILE_STATISTICS_FILEFUNCTION_H
 #define FILE_STATISTICS_FILEFUNCTION_H
 
-#include <vector>
 #include <map>
 #include <string>
 
